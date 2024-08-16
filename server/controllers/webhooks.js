@@ -28,6 +28,8 @@ export const clerkWebhooks = async(req,res) =>{
                     resume:''
                 }
                 await User.create(userData)
+                await console.log(user);
+                
                 res.json({})
                 break;
             }
