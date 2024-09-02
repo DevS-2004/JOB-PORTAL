@@ -1,5 +1,5 @@
 import express from 'express';
-import { loginCompany,changeVisibility,changeJobApplicationStatus,getCompanyPostedJobs,getCompanyJobApplicants ,registerCompany,getCompanyData ,postJob} from '../controllers/companyController.js';
+import { loginCompany,changeVisibility,changeJobApplicationStatus,getCompanyPostedJobs,getCompanyJobApplicants ,registerCompany,getCompanyData ,postJob} from '../controllers/companycontroller.js';
 import upload from '../config/multer.js';
 import { protectCompany } from '../middleware/authMiddleware.js';
 
