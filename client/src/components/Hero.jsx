@@ -39,7 +39,7 @@ const Hero = () => {
                 <div className="flex flex-wrap justify-evenly items-center w-full gap-4">
                     <p className="font-medium whitespace-nowrap">Trusted By</p>
                     <img className="h-6" src={assets.microsoft_logo} alt="Microsoft" />
-                    <img className="h-6" src={assets.walmar_logo} alt="Walmart" />
+                    <img className="h-6" src={assets.walmart_logo} alt="Walmart" />
                     <img className="h-6" src={assets.accenture_logo} alt="Accenture" />
                     <img className="h-6" src={assets.samsung_logo} alt="Samsung" />
                     <img className="h-6" src={assets.amazon_logo} alt="Amazon" />
